@@ -4,6 +4,7 @@ public interface Calculator {
      *
      * @param number
      */
+    @Metric
     int calc(int number);
 
 }
